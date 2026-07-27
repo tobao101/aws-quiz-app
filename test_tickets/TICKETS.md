@@ -26,7 +26,7 @@
 
 | ID                                       | チケット名                                     | 依存   | Status |
 | ---------------------------------------- | ---------------------------------------------- | ------ | ------ |
-| [TT-001](./tickets/TT-001-project-setup.md) | プロジェクト初期化（テスト版・DBなし）         | なし   | TODO   |
+| [TT-001](./tickets/TT-001-project-setup.md) | プロジェクト初期化（テスト版・DBなし）         | なし   | DONE   |
 | [TT-002](./tickets/TT-002-quiz-logic.md)    | 出題ロジック（ランダム抽出・選択肢シャッフル） | TT-001 | TODO   |
 | [TT-003](./tickets/TT-003-exam-screen.md)   | 出題・回答画面                                 | TT-002 | TODO   |
 | [TT-004](./tickets/TT-004-result-screen.md) | 結果画面（正解率・問題別レビュー）             | TT-003 | TODO   |
