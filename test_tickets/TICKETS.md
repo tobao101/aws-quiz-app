@@ -3,6 +3,7 @@
 - このフォルダは `tickets/`（本番版・要件定義書ベース）とは**別スコープ**の、最小構成プロトタイプ用チケット管理ファイルです。
 - 問題データ: [claude2/quiz_data.json](../claude2/quiz_data.json)（193問）をそのまま流用する
 - 個別チケット: [tickets/](./tickets/) フォルダ（1チケット = 1ファイル）
+- 進捗ログ: [PROGRESS.md](./PROGRESS.md)（実装内容・確認方法をチケットごとに記録）
 
 ## スコープ
 
@@ -27,9 +28,9 @@
 | ID                                       | チケット名                                     | 依存   | Status |
 | ---------------------------------------- | ---------------------------------------------- | ------ | ------ |
 | [TT-001](./tickets/TT-001-project-setup.md) | プロジェクト初期化（テスト版・DBなし）         | なし   | DONE   |
-| [TT-002](./tickets/TT-002-quiz-logic.md)    | 出題ロジック（ランダム抽出・選択肢シャッフル） | TT-001 | TODO   |
-| [TT-003](./tickets/TT-003-exam-screen.md)   | 出題・回答画面                                 | TT-002 | TODO   |
-| [TT-004](./tickets/TT-004-result-screen.md) | 結果画面（正解率・問題別レビュー）             | TT-003 | TODO   |
+| [TT-002](./tickets/TT-002-quiz-logic.md)    | 出題ロジック（ランダム抽出・選択肢シャッフル） | TT-001 | DONE   |
+| [TT-003](./tickets/TT-003-exam-screen.md)   | 出題・回答画面                                 | TT-002 | DONE   |
+| [TT-004](./tickets/TT-004-result-screen.md) | 結果画面（正解率・問題別レビュー）             | TT-003 | DONE   |
 
 Status の値: `TODO` / `IN_PROGRESS` / `REVIEW` / `DONE`
 
